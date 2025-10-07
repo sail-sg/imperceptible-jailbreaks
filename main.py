@@ -1072,7 +1072,7 @@ if __name__ == '__main__':
     parser.add_argument(
         "--n-restarts",
         type = int,
-        default = 1,
+        default = 100,
         help = "Number of random restarts to amplify the attack success rate."
     )
     ##################################################
